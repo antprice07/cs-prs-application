@@ -11,6 +11,8 @@ namespace PrsNetServer.Models {
 
         public virtual DbSet<User> Users { get; set; }
 
+        public virtual DbSet<Vendor> Vendors { get; set; }
+
         public AppDbContext() {
 
             }
