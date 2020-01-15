@@ -31,14 +31,14 @@ namespace PrsNetServer.Controllers
             if (ven == null) return new BadRequestResult();
             _context.Vendors.Add(ven);
             await _context.SaveChangesAsync();
-            return new OkObjectResult();
+            return new OkObjectResult(ven);
             }
         [HttpPut("{id}")]
         public async Task<IActionResult> Update(Vendor ven, int id) {
-            if (ven == null||ven.Id !== id) return new BadRequestResult();
+            if (ven == null||ven.Id != id) return new BadRequestResult();
             _context.Entry(ven).State = EntityState.Modified;
             await _context.SaveChangesAsync();
-            return new OkObjectResult();
+            return new OkObjectResult(ven);
             }
         [HttpDelete("{id}")]
         public async Task<ActionResult<Vendor>> DeleteByPk(int id) {
@@ -46,7 +46,7 @@ namespace PrsNetServer.Controllers
             if (ven == null) return NotFound();
             _context.Vendors.Remove(ven);
             await _context.SaveChangesAsync();
-            return new OkObjectResult();
+            return new OkObjectResult(ven);
             }
 
         }

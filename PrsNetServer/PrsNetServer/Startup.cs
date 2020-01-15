@@ -28,7 +28,8 @@ namespace PrsNetServer {
             connStrKey = "DevDb";
 #endif
             services.AddDbContext<AppDbContext>(x => {
-                x.UseSqlServer(Configuration.GetConnectionString(connStrKey));
+                x.UseLazyLoadingProxies();
+                x.UseSqlServer(Configuration.GetConnectionString("DevDb"));
             });
             services.AddCors();
             services.AddControllers();
