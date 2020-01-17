@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using PrsNetServer.Controllers;
 
 namespace PrsNetServer.Models
     {
@@ -15,9 +16,14 @@ namespace PrsNetServer.Models
 
         public virtual DbSet<Vendor> Vendors { get; set; }
         public virtual DbSet<Product> Products { get; set; }
+        public virtual DbSet<Request> Requests { get; set; }
+
 
         public AppDbContext() {
 
             }
+
+
+        public DbSet<PrsNetServer.Controllers.Request> Request { get; set; }
         }
     }

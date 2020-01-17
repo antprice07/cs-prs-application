@@ -1,24 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\repos\\cs-prs-application\\PrsNetServer\\PrsNetServer\\PrsNetServer.csproj": {}
+    "F:\\repos\\cs-prs-project\\PrsNetServer\\PrsNetServer\\PrsNetServer.csproj": {}
   },
   "projects": {
-    "C:\\repos\\cs-prs-application\\PrsNetServer\\PrsNetServer\\PrsNetServer.csproj": {
+    "F:\\repos\\cs-prs-project\\PrsNetServer\\PrsNetServer\\PrsNetServer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\repos\\cs-prs-application\\PrsNetServer\\PrsNetServer\\PrsNetServer.csproj",
+        "projectUniqueName": "F:\\repos\\cs-prs-project\\PrsNetServer\\PrsNetServer\\PrsNetServer.csproj",
         "projectName": "PrsNetServer",
-        "projectPath": "C:\\repos\\cs-prs-application\\PrsNetServer\\PrsNetServer\\PrsNetServer.csproj",
-        "packagesPath": "C:\\Users\\max-s\\.nuget\\packages\\",
-        "outputPath": "C:\\repos\\cs-prs-application\\PrsNetServer\\PrsNetServer\\obj\\",
+        "projectPath": "F:\\repos\\cs-prs-project\\PrsNetServer\\PrsNetServer\\PrsNetServer.csproj",
+        "packagesPath": "C:\\Users\\antpr\\.nuget\\packages\\",
+        "outputPath": "F:\\repos\\cs-prs-project\\PrsNetServer\\PrsNetServer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\max-s\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\antpr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
